@@ -1,17 +1,10 @@
 import "./styles.css";
+import Game from "./components/Game";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Hi</h2>
-      <h3>OKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK</h3>
-      <h3>OKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK</h3>
-      <h3>OKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK</h3>
-      <h3>OKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK</h3>
-      <h3>OKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK</h3>
-      <h3>OKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK</h3>
-      <h3>OKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK</h3>
+      <Game rows={20} columns={10} />
     </div>
   );
 }
